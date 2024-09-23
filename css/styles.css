@@ -8,3 +8,18 @@ body {
 h1 {
     text-align: center;
 }
+
+main > div {
+    
+}
+
+p {
+    text-align: center;
+    width: 70%;
+    margin: 50px auto
+
+}
+
+div .row {
+    display: flex;
+}
