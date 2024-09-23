@@ -9,17 +9,34 @@ h1 {
     text-align: center;
 }
 
-main > div {
-    
-}
+main>div {}
 
 p {
     text-align: center;
     width: 70%;
     margin: 50px auto
-
 }
+
+.container {
+    background-color: aqua;
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+/*
+mi sto aiutando con il metodo che ci ha fatto vedere
+Gaetano per la griglia utilizzando gap e non margin
+poi magari margin è piu semplice */
 
 div .row {
     display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 30px
+}
+
+div .col {
+    width: 30%;
+    border: 2px solid black;
+
 }
