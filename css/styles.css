@@ -36,9 +36,12 @@ div .row {
 
 div .col {
     width: 30%;
-    border: 2px solid black;
+/*    border: 2px solid black; sempre rubato da Gaetano 
+è servito durante la creazion del layout
+ma ora posso toglierlo  */ 
     display: flex;
     background-color: rgb(4, 4, 51);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
 /*ho un problema qui vorrei che la lista prendesse piu spazio nel quadrato
@@ -59,3 +62,4 @@ img {
 li {
     color: white;
 }
+
