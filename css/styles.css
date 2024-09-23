@@ -18,7 +18,6 @@ p {
 }
 
 .container {
-    background-color: aqua;
     max-width: 70%;
     margin: 0 auto;
 }
@@ -38,5 +37,25 @@ div .row {
 div .col {
     width: 30%;
     border: 2px solid black;
+    display: flex;
+    background-color: rgb(4, 4, 51);
 
+}
+/*ho un problema qui vorrei che la lista prendesse piu spazio nel quadrato
+ho provato a mettere ul come flex container e fare space around ma non funziona
+also come mai il mio link non è blu?*/
+ul {
+    list-style: none;
+    padding-left: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+img {
+    max-width: 25%;
+}
+
+li {
+    color: white;
 }
